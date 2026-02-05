@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind utilities;
+
+:global(body) {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.filter-btn {
+  @apply flex items-center gap-1 border-[0.5px] text-[12px] rounded-lg px-4 py-2 text-sm font-medium cursor-pointer
+         bg-gray-50 hover:bg-gray-100 whitespace-nowrap shrink-0;
+}
